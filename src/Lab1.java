@@ -14,7 +14,8 @@ public static void main(String[] args){
 		char decision = '0';
 		int correct = 0;
 		int times = 0;
-		
+		int even =0;
+		int odd=0;
 		
 		System.out.println("Hey wanna play THE Dice Game, \nPress y to roll dice");
 		decision = input.next().charAt(0);
@@ -46,7 +47,13 @@ public static void main(String[] args){
 										times++;
 				
 										}
-			
+									if((userGuess%2)==0)
+				
+											even++;
+										
+									else
+										odd++;
+									
 			
 									if(userGuess==randomDice)
 										{
