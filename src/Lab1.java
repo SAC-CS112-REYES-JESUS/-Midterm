@@ -70,10 +70,10 @@ public static void main(String[] args){
 									
 									
 							
-									
+									float percentage = (float) (correct*10 / times);
 			
 							System.out.printf("The number of times you played where:%d\n", times);
-							System.out.printf("The times you answered correct %% were:%d\n",correct);
+							System.out.printf("The times you answered correct %% were:%f\n",percentage);
 							
 			
 						}
