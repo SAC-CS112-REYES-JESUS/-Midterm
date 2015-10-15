@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 
-public class Lab1 {
+public class realMidTerm {
 public static void main(String[] args){
 		
 		
